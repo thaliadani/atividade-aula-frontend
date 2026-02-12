@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eeeeee;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    padding: 1.5rem 2rem;
+    gap: 2rem;
+    border: solid #f7f2e8 .2rem;
+    border-radius: 1rem;
+    background-color: #f1ddb1;
+    color: #000;
+    font-size: 1rem;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.55);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input {
+    height: 30px;
+    padding: .5rem;
+    background-color: #ffffff;
+    border-radius: .2rem;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario-cadastro_generos {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.formulario-cadastro_generos label {
+    font-weight: normal;
+}
+
+.formulario-cadastro_cursos {
+    height: 30px;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-size: .8rem;
+}
+
+#formulario-cadastro_botao-enviar {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border-radius: .2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#formulario-cadastro_botao-enviar:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#formulario-cadastro_botao-enviar:active {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 10px 12px 12px -7px rgba(0, 0, 0, 0.52) inset;
+    -webkit-box-shadow: 10px 12px 12px -7px rgba(0, 0, 0, 0.52) inset;
+    -moz-box-shadow: 10px 12px 12px -7px rgba(0, 0, 0, 0.52) inset;
+}
