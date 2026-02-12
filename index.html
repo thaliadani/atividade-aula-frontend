@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Loja Pet</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>Proz</title>
 </head>
+
 <body>
     <header>
-        <h1>Loja Pet</h1>
+        <h1>Proz</h1>
         <nav>
             <ul>
                 <li><a href="#">Página Inicial</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="./formulario/index.html">Cadastro</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="/pages/formulario.html">Cadastro</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <button type="button"><</button>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <button type="button">></button>
+        <section class="carrossel-container">
+            <button type="button" id="carrossel-botao-voltar"><</button>
+                <div class="carrossel-imagem">
+                    <img src="./assets/images/desenvolvimento-de-sistemas.jpg" alt="">
+                </div>
+                <div class="carrossel-imagem">
+                    <img src="./assets/images/informatica.jpg" alt="">
+                </div>
+                <div class="carrossel-imagem">
+                    <img src="./assets/images/redes.jpg" alt="">
+                </div>
+            <button type="button" id="carrossel-botao-proxima">></button>
         </section>
-        
-        <section>
-            <h2></h2>
-            <h3></h3>
-            <p></p>
+
+        <section class="info-container">
+            <h2>Transforme sua carreira com a Proz Educação</h2>
+            <h3>Domine as tecnologias que movem o mercado de TI</h3>
+            <p>
+                Prepare-se para os desafios do mundo digital com nossos cursos especializados em
+                Desenvolvimento de Sistemas, Informática e Redes. Na Proz, unimos teoria
+                prática e suporte especializado para garantir que você não apenas aprenda a programar
+                ou gerenciar infraestruturas, mas se destaque como um profissional completo e
+                pronto para as melhores oportunidades do setor tecnológico.
+            </p>
         </section>
 
     </main>
@@ -39,5 +52,8 @@
     <footer>
         <p>Criado por Thalia Danielle</p>
     </footer>
+
+    <script src="./assets/scripts/carrrossel.js"></script>
 </body>
+
 </html>
