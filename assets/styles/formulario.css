@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #eeeeee;
 }
 
 main {
@@ -19,9 +18,9 @@ main {
     padding: 1.5rem 2rem;
     min-width: 24%;
     gap: 2rem;
-    border: solid #4622a8 .2rem;
+    border: solid #321a75 .4rem;
     border-radius: 1rem;
-    background-color: #5628d6;
+    background-color: #361b80;
     color: #ffffff;
     font-size: 1rem;
     box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.55);
